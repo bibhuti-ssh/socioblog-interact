@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +92,38 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold tracking-tight;
+  }
+
+  .article-content p {
+    @apply my-4 leading-relaxed;
+  }
+
+  .article-content h2 {
+    @apply text-2xl mt-8 mb-4;
+  }
+
+  .article-content h3 {
+    @apply text-xl mt-6 mb-3;
+  }
+
+  .article-content ul {
+    @apply list-disc pl-5 my-4;
+  }
+
+  .article-content ol {
+    @apply list-decimal pl-5 my-4;
+  }
+
+  .article-content a {
+    @apply text-socio-accent underline underline-offset-2 hover:text-socio-dark-blue transition-colors;
+  }
+
+  .article-card {
+    @apply transition-all duration-300 hover:shadow-md hover:-translate-y-1;
   }
 }
