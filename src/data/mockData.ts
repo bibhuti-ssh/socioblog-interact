@@ -51,50 +51,48 @@ export const categories: Category[] = [
 export const articles: Article[] = [
   {
     id: '1',
-    title: 'The Evolution of Social Movement Theory in the Digital Age',
-    excerpt: 'How digital technologies have transformed collective action and social movements in contemporary society.',
+    title: 'The Wheel',
+    excerpt: 'Functional Divergence in Mesopotamia and Mesoamerica.',
     content: `
-      # The Evolution of Social Movement Theory in the Digital Age
+       Mesopotamia (~3500 BC)
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The invention of the wheel is one of the most significant breakthroughs in human history. The
+earliest evidence comes from Mesopotamia, where solid wooden disks were first used in pottery.
+Eventually, these evolved into wheels for transportation, facilitating the rise of long-distance trade
+networks and increasing agricultural efficiency. The use of the wheel was fundamental in the
+construction of carts, chariots, and irrigation systems.
+ Technological Features: Early wheels were made from planks joined together, later evolving
+into spoked wheels.
+ Impact: Enhanced mobility, increased agricultural output, and the development of largescale trade networks across the Fertile Crescent.
+ Archaeological Evidence: Finds from Uruk and Sumer confirm the widespread use of
+wheeled vehicles by 3000 BC.
+-----------------------------------------------------------------------------------------------------------
+ Mesoamerica (~1500 BC)
+ In contrast to Mesopotamia, the Mesoamerican civilizations, including the Olmecs and Mayans, did
+not use wheels for transportation. However, wheeled artifacts—small ceramic toys with axles—
+indicate knowledge of the principle.
 
-      ## The Traditional Perspective
+ Technological Features: Wheeled figurines crafted from clay, found in Veracruz and Oaxaca.
+ Cultural and Environmental Constraints: The absence of large draft animals like horses or
+oxen meant wheeled transport was not feasible.
+ Symbolic and Ritual Use: Some scholars suggest that these wheeled objects may have held
+religious significance or been used in divination.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Comparative Analysis:
+ Why did one society adopt wheels for transport while another did not?
+o The presence of domesticated animals in Mesopotamia enabled practical use.
+o Mesoamerican terrain (dense jungles, mountains) made wheeled vehicles
+impractical.
+o Social structures influenced technological priorities; Mesoamerica focused more on
+vertical transportation (such as rope-based systems in the Andes).
 
-      * Resource mobilization theory
-      * Political process theory
-      * Framing processes
-
-      ## The Digital Revolution
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Social Media's Impact
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Network Theory Applications
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Case Studies
-
-      1. The Arab Spring
-      2. Black Lives Matter
-      3. Climate activism
-      4. #MeToo movement
-
-      ## Conclusion
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     `,
     category: 'Social Movements',
     author: 'Dr. Sarah Johnson',
-    authorAvatar: 'https://randomuser.me/api/portraits/women/44.jpg',
+    authorAvatar: '',
     date: 'April 15, 2023',
     readTime: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1542373285-a85124c4e0cc?q=80&w=1000',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Roue_primitive.png/330px-Roue_primitive.png',
     featured: true,
   },
   {
@@ -141,8 +139,8 @@ export const articles: Article[] = [
     authorAvatar: 'https://randomuser.me/api/portraits/men/54.jpg',
     date: 'March 22, 2023',
     readTime: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?q=80&w=1000',
-    featured: false,
+    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
+    featured: true,
   },
   {
     id: '3',
@@ -189,7 +187,7 @@ export const articles: Article[] = [
     authorAvatar: 'https://randomuser.me/api/portraits/women/33.jpg',
     date: 'February 11, 2023',
     readTime: '10 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000',
+    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
   {
@@ -240,7 +238,7 @@ export const articles: Article[] = [
     authorAvatar: 'https://randomuser.me/api/portraits/men/22.jpg',
     date: 'January 29, 2023',
     readTime: '7 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?q=80&w=1000',
+    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
   {
@@ -291,7 +289,7 @@ export const articles: Article[] = [
     authorAvatar: 'https://randomuser.me/api/portraits/women/67.jpg',
     date: 'May 3, 2023',
     readTime: '9 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1602524815375-c13d21c9f238?q=80&w=1000',
+    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
   {
@@ -342,7 +340,7 @@ export const articles: Article[] = [
     authorAvatar: 'https://randomuser.me/api/portraits/men/42.jpg',
     date: 'April 18, 2023',
     readTime: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f8e1c1?q=80&w=1000',
+    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
 ];
