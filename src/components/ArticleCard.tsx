@@ -8,9 +8,9 @@ interface ArticleCardProps {
   id: string;
   title: string;
   excerpt: string;
-  category: string;
-  author: string;
-  date: string;
+  // category: string;
+  // author: string;
+  // date: string;
   readTime: string;
   imageUrl: string;
   featured?: boolean;

@@ -16,11 +16,7 @@ const Index = () => {
   const recentArticles = getRecentArticles();
   
   // Filter articles based on selected topic
-  const filteredArticles = selectedTopic 
-    ? recentArticles.filter(article => 
-        article.category.toLowerCase() === topics.find(t => t.id === selectedTopic)?.name.toLowerCase()
-      )
-    : recentArticles;
+
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -60,21 +56,18 @@ const Index = () => {
                     ? `Articles in ${topics.find(t => t.id === selectedTopic)?.name}` 
                     : 'Latest Articles'}
                 </h2>
-                <div className="grid md:grid-cols-2 gap-6">
+                {/* <div className="grid md:grid-cols-2 gap-6">
                   {filteredArticles.map(article => (
                     <ArticleCard
                       key={article.id}
                       id={article.id}
                       title={article.title}
                       excerpt={article.excerpt}
-                      category={article.category}
-                      author={article.author}
-                      date={article.date}
                       readTime={article.readTime}
                       imageUrl={article.imageUrl}
                     />
                   ))}
-                </div>
+                </div> */}
               </section>
             </div>
 

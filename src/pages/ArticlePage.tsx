@@ -195,7 +195,6 @@ const ArticlePage = () => {
                   excerpt={article.excerpt}
                   readTime={article.readTime}
                   imageUrl={article.imageUrl}
-
                 />
               ))}
             </div>

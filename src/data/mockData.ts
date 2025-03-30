@@ -1,6 +1,3 @@
-
-// Mock data for the Sociology Blog
-
 export interface Article {
   id: string;
   title: string;
@@ -51,273 +48,162 @@ export const articles: Article[] = [
     title: 'The Wheel',
     excerpt: 'Functional Divergence in Mesopotamia and Mesoamerica.',
     content: `
-       Mesopotamia (~3500 BC)
+2. The Wheel: Functional Divergence in Mesopotamia and Mesoamerica
 
-The invention of the wheel is one of the most significant breakthroughs in human history. The
-earliest evidence comes from Mesopotamia, where solid wooden disks were first used in pottery.
-Eventually, these evolved into wheels for transportation, facilitating the rise of long-distance trade
-networks and increasing agricultural efficiency. The use of the wheel was fundamental in the
-construction of carts, chariots, and irrigation systems.
- Technological Features: Early wheels were made from planks joined together, later evolving
-into spoked wheels.
- Impact: Enhanced mobility, increased agricultural output, and the development of largescale trade networks across the Fertile Crescent.
- Archaeological Evidence: Finds from Uruk and Sumer confirm the widespread use of
-wheeled vehicles by 3000 BC.
------------------------------------------------------------------------------------------------------------
- Mesoamerica (~1500 BC)
- In contrast to Mesopotamia, the Mesoamerican civilizations, including the Olmecs and Mayans, did
-not use wheels for transportation. However, wheeled artifacts—small ceramic toys with axles—
-indicate knowledge of the principle.
+2.1 Mesopotamia (~3500 BC)
 
- Technological Features: Wheeled figurines crafted from clay, found in Veracruz and Oaxaca.
- Cultural and Environmental Constraints: The absence of large draft animals like horses or
-oxen meant wheeled transport was not feasible.
- Symbolic and Ritual Use: Some scholars suggest that these wheeled objects may have held
-religious significance or been used in divination.
+The invention of the wheel is one of the most significant breakthroughs in human history. The earliest evidence comes from Mesopotamia, where solid wooden disks were first used in pottery. Eventually, these evolved into wheels for transportation, facilitating the rise of long-distance trade networks and increasing agricultural efficiency. The use of the wheel was fundamental in the construction of carts, chariots, and irrigation systems.
+
+• Technological Features: Early wheels were made from planks joined together, later evolving into spoked wheels.
+• Impact: Enhanced mobility, increased agricultural output, and the development of large-scale trade networks across the Fertile Crescent.
+• Archaeological Evidence: Finds from Uruk and Sumer confirm the widespread use of wheeled vehicles by 3000 BC.
+
+2.2 Mesoamerica (~1500 BC)
+
+In contrast to Mesopotamia, the Mesoamerican civilizations – including the Olmecs and Mayans – did not use wheels for transportation. However, wheeled artifacts, such as small ceramic toys with axles, indicate knowledge of the principle.
+
+• Technological Features: Wheeled figurines crafted from clay, found in Veracruz and Oaxaca.
+• Cultural and Environmental Constraints: The absence of large draft animals like horses or oxen meant wheeled transport was not feasible.
+• Symbolic and Ritual Use: Some scholars suggest that these wheeled objects may have held religious significance or been used in divination.
 
 Comparative Analysis:
- Why did one society adopt wheels for transport while another did not?
-o The presence of domesticated animals in Mesopotamia enabled practical use.
-o Mesoamerican terrain (dense jungles, mountains) made wheeled vehicles
-impractical.
-o Social structures influenced technological priorities; Mesoamerica focused more on
-vertical transportation (such as rope-based systems in the Andes).
-
+• Why did one society adopt wheels for transport while another did not?
+  - The presence of domesticated animals in Mesopotamia enabled practical use.
+  - Mesoamerican terrain (dense jungles, mountains) made wheeled vehicles impractical.
+  - Social structures influenced technological priorities; Mesoamerica focused more on vertical transportation (such as rope-based systems in the Andes).
     `,
-    
     readTime: '8 min read',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Roue_primitive.png/330px-Roue_primitive.png',
     featured: true,
   },
   {
     id: '2',
-    title: 'Urban Gentrification and Social Displacement',
-    excerpt: 'Examining the complex relationship between urban development, cultural shifts, and community displacement.',
+    title: 'Crossbows',
+    excerpt: 'Independent Military Innovations.',
     content: `
-      # Urban Gentrification and Social Displacement
+ Crossbows: Independent Military Innovations
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ China (~600 BC)
 
-      ## The Gentrification Process
+The crossbow was a transformative military technology in China, allowing large armies to field projectile weapons with greater accuracy and lethality. The Han Dynasty perfected mass production techniques, enabling widespread deployment. 
+• Technological Features: Bronze and iron trigger mechanisms with standardized parts for quick assembly.
+• Impact: Shifted power dynamics in warfare by enabling even poorly trained soldiers to engage elite warriors.
+• Historical Evidence: Qin Dynasty crossbows, such as those found with the Terracotta Army, exemplify this innovation.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Greece (~400 BC) & Rome (~200 BC)
 
-      ### Economic Factors
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Cultural Transformation
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Social Consequences
-
-      * Displacement of low-income residents
-      * Loss of community ties
-      * Cultural erasure
-      * Housing affordability crisis
-
-      ## Policy Responses
-
-      1. Inclusive zoning
-      2. Rent control
-      3. Community land trusts
-      4. Anti-displacement programs
-
-      ## Conclusion
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Greeks developed the gastraphetes, a forerunner to the crossbow used in siege warfare. Later, the Romans refined the design into the scorpio, a lightweight artillery weapon. 
+• Comparative Analysis:
+  - In China, crossbows were employed in mass infantry formations.
+  - Greeks and Romans used them primarily as siege or defensive weapons.
     `,
-    readTime: '6 min read',
-    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
+    readTime: '7 min read',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2QcSMy5TkdGrjzqRoHCMmFLeAA7uigCVB4Q&s',
     featured: true,
   },
   {
     id: '3',
-    title: 'Intersectionality in Modern Feminist Theory',
-    excerpt: 'Analyzing how intersectional approaches have transformed feminist sociological theory and research.',
+    title: 'Stirrups',
+    excerpt: 'Transforming Cavalry Warfare',
     content: `
-      # Intersectionality in Modern Feminist Theory
+ 
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ China (300–400 AD)
 
-      ## Origins of Intersectionality
+The earliest known use of metal stirrups emerged in China, revolutionizing cavalry tactics. Stirrups provided riders with increased stability and control, which in turn allowed warriors to wield weapons more effectively while mounted.
+• Military Impact: Enhanced precision in strikes and bolstered the effectiveness of heavy cavalry.
+• Social Impact: Contributed to shifts in military hierarchy, emphasizing the importance of mounted troops.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Central Asia & The Huns
 
-      ## Key Theoretical Contributions
+The Huns, originating from Central Asia, played a crucial role in the spread of stirrup technology. Their agile mounted warfare tactics were significantly enhanced by the adoption of stirrups.
+• Expansion and Influence: The Huns’ rapid conquests forced neighboring societies to reconsider cavalry strategies.
+• Comparative Note: Whereas Chinese stirrups strengthened centralized forces, the Huns used them to maximize raiding mobility.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Medieval Europe
 
-      ### Multiple Axes of Oppression
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Methodological Implications
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Contemporary Applications
-
-      * Educational research
-      * Health disparities
-      * Workplace studies
-      * Political engagement
-
-      ## Criticisms and Limitations
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Conclusion
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The introduction of stirrups in Europe had profound societal effects. By the early medieval period, the stirrup was integral to feudal warfare and the rise of the armored knight.
+• Political Impact: Reinforced feudal systems where knights, supported by powerful cavalry, became central to military organization.
+• Technological Integration: Alongside innovations like high-backed saddles and long lances, stirrups enabled the mounted charge—a hallmark of medieval combat.
     `,
-    
-    readTime: '10 min read',
+    readTime: '8 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
   {
     id: '4',
-    title: 'Digital Ethnography: Methods and Ethics',
-    excerpt: 'Exploring the methodological innovation and ethical challenges in conducting ethnographic research in digital spaces.',
+    title: 'Paper',
+    excerpt: 'Tracing the independent origins of paper and its cultural significance.',
     content: `
-      # Digital Ethnography: Methods and Ethics
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-      ## Traditional vs. Digital Ethnography
+ China (~100 BC)
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Paper was first developed in China under the Han Dynasty, with Cai Lun often credited for its invention around 105 AD. This breakthrough had transformative effects on Chinese administration and culture.
+• Bureaucratic Expansion: Enabled the maintenance of extensive administrative records and strengthened centralized governance.
+• Literacy and Education: Facilitated mass reproduction of Confucian texts and spread education.
+• Economic Impact: Lowered the cost of recording information, thereby supporting trade and commerce.
 
-      ## Methodological Approaches
+ Mesoamerica (~300 AD)
 
-      * Participant observation in digital communities
-      * Digital interviews and focus groups
-      * Social media analysis
-      * Platform ethnography
-
-      ## Ethical Considerations
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Privacy and Consent
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Representation and Power
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Case Studies
-
-      1. Online gaming communities
-      2. Social media activism
-      3. Digital diaspora
-      4. Virtual workplaces
-
-      ## Conclusion
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Independently, the Maya developed amate paper made from tree bark. This paper was predominantly used for sacred codices.
+• Religious and Ritual Use: Essential for recording astronomical data, mythologies, and calendrical information.
+• Production Constraints: Its labor-intensive production limited its use to the religious elite.
     `,
-    
     readTime: '7 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
   {
     id: '5',
-    title: 'Global Inequality and the World-Systems Theory',
-    excerpt: 'A critical examination of world-systems theory and its relevance in understanding contemporary global inequality.',
+    title: 'Gunpowder',
+    excerpt: 'Examining divergent paths in the development of gunpowder.',
     content: `
-      # Global Inequality and the World-Systems Theory
+ Gunpowder: Divergent Paths in Warfare
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ China (~900 AD)
 
-      ## Foundations of World-Systems Theory
+Gunpowder was first invented in China during the Tang Dynasty. Initially created for fireworks, it was soon adapted for military applications including flame-throwers, bombs, and early firearms.
+• State Control: The Chinese government tightly regulated gunpowder to maintain military superiority.
+• Defensive Use: Played a key role in fortifying defenses and repelling nomadic invasions.
+ Middle East & Europe (~1200–1300 AD)
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Core, Periphery, and Semi-Periphery
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ### Historical Development
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Contemporary Applications
-
-      * Global trade and economic power
-      * Labor exploitation and migration
-      * Environmental degradation
-      * Technology transfer
-
-      ## Critiques and Limitations
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Alternative Perspectives
-
-      1. Dependency theory
-      2. Modernization theory
-      3. Post-colonial approaches
-      4. Global networks theory
-
-      ## Conclusion
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Gunpowder technology spread westward via trade routes. In the Middle East and later in Europe, it was quickly integrated into military strategies.
+• Siege Warfare: Led to the decline of traditional fortifications and castles.
+• Geopolitical Impact: Facilitated the centralization of state power as emerging monarchies used gunpowder weapons to subdue feudal rivals.
     `,
-    
-    readTime: '9 min read',
+    readTime: '8 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
   {
     id: '6',
-    title: 'Education as Social Reproduction: Contemporary Perspectives',
-    excerpt: 'Examining how educational systems perpetuate social inequality through various mechanisms of social reproduction.',
+    title: 'Printing',
+    excerpt: 'Assessing the global impact of printing and its theoretical interpretations.',
     content: `
-      # Education as Social Reproduction: Contemporary Perspectives
+ Printing: Independent Inventions with Global Impact
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ China (~700 AD) & Korea (~1200 AD)
 
-      ## Theoretical Foundations
+The Chinese pioneered block printing, which allowed for the mass production of texts, primarily for state use. By the 1200s, Korea refined this technology by developing movable metal type.
+• State Control: Printing served as a tool for bureaucratic administration and the spread of Confucian and Buddhist texts.
+• Cultural Influence: Contributed to the rapid dissemination of religious and philosophical ideas across East Asia.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Europe (~1450 AD)
 
-      ### Bourdieu's Cultural Capital
+Johannes Gutenberg’s invention of the printing press with movable type revolutionized Europe.
+• Democratization of Knowledge: Printing transitioned from state-controlled production to a commercially driven enterprise.
+• Intellectual Movements: Fueled the Renaissance, Reformation, and Scientific Revolution by breaking the Church’s monopoly on information.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Theoretical Perspectives: Actor-Network Theory and Assemblage
 
-      ### Willis's Learning to Labor
+Both Actor-Network Theory (ANT) and Assemblage Theory offer frameworks for understanding these independent technological innovations. ANT emphasizes the network of human and non-human actors in shaping technology, while Assemblage Theory focuses on the interaction of multiple elements—technological, social, and environmental—in driving innovation.
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Conclusion
 
-      ## Mechanisms of Reproduction
-
-      * Curriculum and knowledge selection
-      * Assessment and credential systems
-      * Tracking and ability grouping
-      * Hidden curriculum
-
-      ## Case Studies
-
-      1. Higher education access
-      2. Digital divide in learning
-      3. International educational inequality
-      4. Vocational vs. academic pathways
-
-      ## Resistance and Change
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-      ## Conclusion
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Parallel inventions across civilizations demonstrate the universality of human ingenuity. Although similar innovations arose independently, their development and impact were heavily influenced by local conditions and societal structures. This comprehensive analysis underscores that technological progress is not isolated but rather a dynamic, interconnected process.
     `,
-    
-    readTime: '8 min read',
+    readTime: '10 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
   },
