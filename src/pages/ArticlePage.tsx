@@ -72,9 +72,6 @@ const ArticlePage = () => {
         {/* Article Header */}
         <div className="bg-socio-light-blue py-12">
           <div className="container mx-auto px-4">
-            <Badge className="mb-4 bg-socio-blue hover:bg-socio-blue/90">
-              {article.category}
-            </Badge>
             <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               {article.title}
             </h1>
@@ -82,24 +79,9 @@ const ArticlePage = () => {
               {article.excerpt}
             </p>
             
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center">
-                <img
-                  src={article.authorAvatar}
-                  alt={article.author}
-                  className="w-12 h-12 rounded-full object-cover mr-3"
-                />
-                <div>
-                  <div className="font-medium">{article.author}</div>
-                  <div className="text-sm text-socio-gray">Author</div>
-                </div>
-              </div>
-              
+            <div className="flex items-center space-x-4">             
               <div className="flex space-x-4 text-socio-gray text-sm">
-                <div className="flex items-center">
-                  <Calendar size={16} className="mr-1" />
-                  <span>{article.date}</span>
-                </div>
+
                 <div className="flex items-center">
                   <Clock size={16} className="mr-1" />
                   <span>{article.readTime}</span>
@@ -165,29 +147,7 @@ const ArticlePage = () => {
               </div>
               
               {/* Author Bio */}
-              <div className="mt-12 p-6 bg-socio-light-blue rounded-lg">
-                <div className="flex items-start">
-                  <img
-                    src={article.authorAvatar}
-                    alt={article.author}
-                    className="w-16 h-16 rounded-full object-cover mr-4"
-                  />
-                  <div>
-                    <h3 className="font-bold text-lg mb-1">{article.author}</h3>
-                    <p className="text-socio-gray mb-3">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo vel purus sollicitudin malesuada.
-                    </p>
-                    <div className="flex space-x-3">
-                      <Button variant="outline" size="sm">
-                        Follow
-                      </Button>
-                      <Button size="sm">
-                        View Profile
-                      </Button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </article>
             
             {/* Sidebar */}
@@ -210,7 +170,7 @@ const ArticlePage = () => {
                           {relatedArticle.title}
                         </Link>
                         <div className="text-xs text-socio-gray mt-1">
-                          {relatedArticle.date} • {relatedArticle.readTime}
+                           • {relatedArticle.readTime}
                         </div>
                       </div>
                     </div>
@@ -233,11 +193,9 @@ const ArticlePage = () => {
                   id={article.id}
                   title={article.title}
                   excerpt={article.excerpt}
-                  category={article.category}
-                  author={article.author}
-                  date={article.date}
                   readTime={article.readTime}
                   imageUrl={article.imageUrl}
+
                 />
               ))}
             </div>

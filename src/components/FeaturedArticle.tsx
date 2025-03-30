@@ -8,9 +8,7 @@ interface FeaturedArticleProps {
   id: string;
   title: string;
   excerpt: string;
-  category: string;
-  author: string;
-  date: string;
+
   readTime: string;
   imageUrl: string;
 }
@@ -19,9 +17,6 @@ const FeaturedArticle: React.FC<FeaturedArticleProps> = ({
   id,
   title,
   excerpt,
-  category,
-  author,
-  date,
   readTime,
   imageUrl,
 }) => {
@@ -35,9 +30,6 @@ const FeaturedArticle: React.FC<FeaturedArticleProps> = ({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
-          <Badge className="mb-4 bg-socio-blue hover:bg-socio-blue/90">
-            {category}
-          </Badge>
           <Link to={`/article/${id}`}>
             <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold mb-4 hover:text-socio-accent/90 transition-colors">
               {title}
@@ -47,17 +39,14 @@ const FeaturedArticle: React.FC<FeaturedArticleProps> = ({
             {excerpt}
           </p>
           <div className="flex items-center text-white/80">
-            <div className="flex items-center">
-              <User size={16} className="mr-1" />
-              <span>{author}</span>
-            </div>
+
             <span className="mx-2">•</span>
             <div className="flex items-center">
               <Clock size={16} className="mr-1" />
               <span>{readTime}</span>
             </div>
             <span className="mx-2">•</span>
-            <span>{date}</span>
+
           </div>
         </div>
       </div>

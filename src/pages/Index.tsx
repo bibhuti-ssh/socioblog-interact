@@ -34,9 +34,6 @@ const Index = () => {
               id={featuredArticles[0].id}
               title={featuredArticles[0].title}
               excerpt={featuredArticles[0].excerpt}
-              category={featuredArticles[0].category}
-              author={featuredArticles[0].author}
-              date={featuredArticles[0].date}
               readTime={featuredArticles[0].readTime}
               imageUrl={featuredArticles[0].imageUrl}
             />
