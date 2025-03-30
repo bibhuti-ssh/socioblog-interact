@@ -6,10 +6,7 @@ export interface Article {
   title: string;
   excerpt: string;
   content: string;
-  category: string;
-  author: string;
-  authorAvatar: string;
-  date: string;
+
   readTime: string;
   imageUrl: string;
   featured: boolean;
@@ -87,10 +84,7 @@ o Social structures influenced technological priorities; Mesoamerica focused mor
 vertical transportation (such as rope-based systems in the Andes).
 
     `,
-    category: 'Social Movements',
-    author: 'Dr. Sarah Johnson',
-    authorAvatar: '',
-    date: 'April 15, 2023',
+    
     readTime: '8 min read',
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Roue_primitive.png/330px-Roue_primitive.png',
     featured: true,
@@ -134,10 +128,6 @@ vertical transportation (such as rope-based systems in the Andes).
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     `,
-    category: 'Urban Sociology',
-    author: 'Prof. Michael Chen',
-    authorAvatar: 'https://randomuser.me/api/portraits/men/54.jpg',
-    date: 'March 22, 2023',
     readTime: '6 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: true,
@@ -182,10 +172,7 @@ vertical transportation (such as rope-based systems in the Andes).
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     `,
-    category: 'Gender Studies',
-    author: 'Dr. Amara Wilson',
-    authorAvatar: 'https://randomuser.me/api/portraits/women/33.jpg',
-    date: 'February 11, 2023',
+    
     readTime: '10 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
@@ -233,10 +220,7 @@ vertical transportation (such as rope-based systems in the Andes).
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     `,
-    category: 'Research Methods',
-    author: 'Dr. James Rodriguez',
-    authorAvatar: 'https://randomuser.me/api/portraits/men/22.jpg',
-    date: 'January 29, 2023',
+    
     readTime: '7 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
@@ -284,10 +268,7 @@ vertical transportation (such as rope-based systems in the Andes).
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     `,
-    category: 'Globalization',
-    author: 'Prof. Elena Santos',
-    authorAvatar: 'https://randomuser.me/api/portraits/women/67.jpg',
-    date: 'May 3, 2023',
+    
     readTime: '9 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
@@ -335,10 +316,7 @@ vertical transportation (such as rope-based systems in the Andes).
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     `,
-    category: 'Education',
-    author: 'Dr. Robert Taylor',
-    authorAvatar: 'https://randomuser.me/api/portraits/men/42.jpg',
-    date: 'April 18, 2023',
+    
     readTime: '8 min read',
     imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
     featured: false,
@@ -347,9 +325,7 @@ vertical transportation (such as rope-based systems in the Andes).
 
 // Function to get articles by category
 export const getArticlesByCategory = (categoryId: string) => {
-  return articles.filter(article => 
-    article.category.toLowerCase() === categories.find(cat => cat.id === categoryId)?.name.toLowerCase()
-  );
+  
 };
 
 // Function to get a single article by id
