@@ -23,7 +23,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="font-serif text-2xl font-bold text-socio-dark-blue">
-              Socioblog
+              Parallel Inventions
             </Link>
           </div>
 
