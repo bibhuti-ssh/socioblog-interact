@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Menu, X, Search, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
-
+import VisitCounter from "./VisitCounter";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -29,7 +29,8 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            
+            <VisitCounter />
+
             
           </nav>
 
