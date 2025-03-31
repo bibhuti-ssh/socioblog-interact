@@ -49,10 +49,14 @@ const Newsletter = () => {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <Button type="submit" className="bg-socio-blue hover:bg-socio-dark-blue transition-colors">
+          
+        </div>
+        <div className="mt-4">
+        <Button type="submit" className="bg-socio-blue hover:bg-socio-dark-blue transition-colors">
             Subscribe
           </Button>
-        </div>
+            
+        </div>  
       </form>
     </div>
   );

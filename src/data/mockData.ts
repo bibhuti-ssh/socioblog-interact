@@ -73,7 +73,7 @@ Comparative Analysis:
   - Social structures influenced technological priorities; Mesoamerica focused more on vertical transportation (such as rope-based systems in the Andes).
     `,
     readTime: '8 min read',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Roue_primitive.png/330px-Roue_primitive.png',
+    imageUrl: 'https://i.postimg.cc/J44LkwCv/Screenshot-from-2025-03-31-08-22-57.png',
     featured: true,
   },
   {
@@ -99,7 +99,7 @@ The Greeks developed the gastraphetes, a forerunner to the crossbow used in sieg
     `,
     readTime: '7 min read',
     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2QcSMy5TkdGrjzqRoHCMmFLeAA7uigCVB4Q&s',
-    featured: true,
+    featured: false,
   },
   {
     id: '3',
@@ -127,7 +127,7 @@ The introduction of stirrups in Europe had profound societal effects. By the ear
 • Technological Integration: Alongside innovations like high-backed saddles and long lances, stirrups enabled the mounted charge—a hallmark of medieval combat.
     `,
     readTime: '8 min read',
-    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
+    imageUrl: 'https://i.postimg.cc/brvYJLzZ/Screenshot-from-2025-03-31-08-16-51.png',
     featured: false,
   },
   {
@@ -151,7 +151,7 @@ Independently, the Maya developed amate paper made from tree bark. This paper wa
 • Production Constraints: Its labor-intensive production limited its use to the religious elite.
     `,
     readTime: '7 min read',
-    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
+    imageUrl: 'https://i.postimg.cc/W4Jj1Mc4/Screenshot-from-2025-03-31-08-19-55.png',
     featured: false,
   },
   {
@@ -204,7 +204,7 @@ Both Actor-Network Theory (ANT) and Assemblage Theory offer frameworks for under
 Parallel inventions across civilizations demonstrate the universality of human ingenuity. Although similar innovations arose independently, their development and impact were heavily influenced by local conditions and societal structures. This comprehensive analysis underscores that technological progress is not isolated but rather a dynamic, interconnected process.
     `,
     readTime: '10 min read',
-    imageUrl: 'https://res.cloudinary.com/dxma9myrh/image/upload/v1743329428/b4vs8ik59fbyxtf3elrf.jpg',
+    imageUrl: 'https://i.postimg.cc/mDYsQBDf/Screenshot-from-2025-03-31-08-21-00.png',
     featured: false,
   },
 ];

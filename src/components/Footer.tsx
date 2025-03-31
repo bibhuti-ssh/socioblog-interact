@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Mail } from 'lucide-react';
+import Newsletter from '../components/Newsletter';
 
 const Footer = () => {
   return (
@@ -24,25 +25,26 @@ Civilizations
           <div>
             <h4 className="font-semibold mb-4">Team Members</h4>
             <ul className="space-y-2">
-              <li><Link to="/rahul" className="text-socio-gray hover:text-socio-accent transition-colors">Rahul Jilowa</Link></li>
-              <li><Link to="/shersth" className="text-socio-gray hover:text-socio-accent transition-colors">Shresth Kasyap</Link></li>
-              <li><Link to="/harsh" className="text-socio-gray hover:text-socio-accent transition-colors">Harsh Raj</Link></li>
-              <li><Link to="/bibhuti" className="text-socio-gray hover:text-socio-accent transition-colors">Bibhuti Jha</Link></li>
+              <li><Link to="https://www.linkedin.com/in/rahul-jilowa-b8b79a290/" className="text-socio-gray hover:text-socio-accent transition-colors">Rahul Jilowa</Link></li>
+              <li><Link to="https://www.linkedin.com/in/shresth-kasyap-735a84270/" className="text-socio-gray hover:text-socio-accent transition-colors">Shresth Kasyap</Link></li>
+              <li><Link to="https://www.linkedin.com/in/harsh-raj-b5a261320/" className="text-socio-gray hover:text-socio-accent transition-colors">Harsh Raj</Link></li>
+              <li><Link to="https://www.linkedin.com/in/bibhuti-jha-045195253/" className="text-socio-gray hover:text-socio-accent transition-colors">Bibhuti Jha</Link></li>
               
             </ul>
           </div>
+                      <aside className="w-auto space-y-8">
+                        {/* Categories */}
+                      
+                        
+                        {/* Newsletter */}
+                        <Newsletter />
+                      </aside>
 
 
         </div>
 
         <div className="border-t border-gray-200 pt-6 text-sm text-socio-gray">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <Link to="/privacy" className="hover:text-socio-accent transition-colors">Privacy</Link>
-              <Link to="/terms" className="hover:text-socio-accent transition-colors">Terms</Link>
-              <Link to="/cookies" className="hover:text-socio-accent transition-colors">Cookies</Link>
-            </div>
-          </div>
+        ©Group-B HS2205 IIT-P . All rights reserved.
         </div>
       </div>
     </footer>

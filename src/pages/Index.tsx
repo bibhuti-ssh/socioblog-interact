@@ -24,7 +24,20 @@ const Index = () => {
       
       <main className="flex-1">
         {/* Featured Article */}
-        <section className="mb-12">
+        {/* <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {featuredArticles.map((article) => (
+            <ArticleCard
+              key={article.id}
+              id={article.id}
+              title={article.title}
+              excerpt={article.excerpt}
+              readTime={article.readTime}
+              imageUrl={article.imageUrl}
+            />
+          ))}
+        </section> */}
+        
+        <section className="mb-5">
           {featuredArticles.length > 0 && (
             <FeaturedArticle
               id={featuredArticles[0].id}
@@ -35,50 +48,29 @@ const Index = () => {
             />
           )}
         </section>
-
-        <div className="container mx-auto px-4 pb-12">
-          {/* Topic Filter */}
-          <section className="mb-8">
-            <h2 className="font-serif text-2xl font-bold mb-6">Explore by Topic</h2>
-            <TopicFilter 
-              topics={topics} 
-              selectedTopic={selectedTopic} 
-              onSelectTopic={setSelectedTopic} 
+        {/* <section className="mb-12">
+          {featuredArticles.length > 0 && (
+            <FeaturedArticle
+              id={featuredArticles[0].id}
+              title={featuredArticles[0].title}
+              excerpt={featuredArticles[0].excerpt}
+              readTime={featuredArticles[0].readTime}
+              imageUrl={featuredArticles[0].imageUrl}
             />
-          </section>
+          )}
+        </section> */}
 
-          <div className="flex flex-col lg:flex-row gap-8">
-            {/* Main Content */}
-            <div className="lg:w-2/3">
-              <section>
-                <h2 className="font-serif text-2xl font-bold mb-6">
-                  {selectedTopic 
-                    ? `Articles in ${topics.find(t => t.id === selectedTopic)?.name}` 
-                    : 'Latest Articles'}
-                </h2>
-                {/* <div className="grid md:grid-cols-2 gap-6">
-                  {filteredArticles.map(article => (
-                    <ArticleCard
-                      key={article.id}
-                      id={article.id}
-                      title={article.title}
-                      excerpt={article.excerpt}
-                      readTime={article.readTime}
-                      imageUrl={article.imageUrl}
-                    />
-                  ))}
-                </div> */}
-              </section>
-            </div>
+        <div className="container mx-auto pb-5 pt-5">
+          {/* Topic Filter */}
+          
+          <div className="flex flex-col lg:flex-row gap-1">
+            
+          Throughout human history, technological advancements have frequently emerged independently
+across different civilizations. These parallel inventions illustrate the shared problem-solving
+capabilities of humanity, as well as the cultural, environmental, and social influences that shape the
+development and application of technology. Read to dive in to the world of parallel inventions !
+            
 
-            {/* Sidebar */}
-            <aside className="lg:w-1/3 space-y-8">
-              {/* Categories */}
-              <CategoryList title="Categories" categories={categories} />
-              
-              {/* Newsletter */}
-              <Newsletter />
-            </aside>
           </div>
         </div>
       </main>

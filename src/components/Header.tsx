@@ -29,36 +29,12 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="font-medium hover:text-socio-accent transition-colors">
-              Home
-            </Link>
-            <Link to="/topics" className="font-medium hover:text-socio-accent transition-colors">
-              Topics
-            </Link>
-            <Link to="/featured" className="font-medium hover:text-socio-accent transition-colors">
-              Featured
-            </Link>
-            <Link to="/about" className="font-medium hover:text-socio-accent transition-colors">
-              About
-            </Link>
-            <Link to="/contact" className="font-medium hover:text-socio-accent transition-colors">
-              Contact
-            </Link>
+            
+            
           </nav>
 
           {/* Action Buttons */}
-          <div className="flex items-center space-x-4">
-            <button onClick={toggleSearch} className="text-socio-gray hover:text-socio-dark-blue transition-colors">
-              <Search size={20} />
-            </button>
-            <Button variant="outline" className="hidden md:flex items-center gap-2">
-              <User size={16} />
-              <span>Sign In</span>
-            </Button>
-            <button onClick={toggleMenu} className="md:hidden text-socio-gray hover:text-socio-dark-blue transition-colors">
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
+          
         </div>
 
         {/* Mobile Menu */}
@@ -68,22 +44,7 @@ const Header = () => {
               <Link to="/" className="font-medium hover:text-socio-accent transition-colors">
                 Home
               </Link>
-              <Link to="/topics" className="font-medium hover:text-socio-accent transition-colors">
-                Topics
-              </Link>
-              <Link to="/featured" className="font-medium hover:text-socio-accent transition-colors">
-                Featured
-              </Link>
-              <Link to="/about" className="font-medium hover:text-socio-accent transition-colors">
-                About
-              </Link>
-              <Link to="/contact" className="font-medium hover:text-socio-accent transition-colors">
-                Contact
-              </Link>
-              <Button variant="outline" className="flex items-center justify-center gap-2 w-full">
-                <User size={16} />
-                <span>Sign In</span>
-              </Button>
+              
             </nav>
           </div>
         )}

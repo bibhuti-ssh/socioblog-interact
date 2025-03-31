@@ -15,7 +15,7 @@ const ArticlePage = () => {
   const { id } = useParams<{ id: string }>();
   const { toast } = useToast();
   const article = getArticleById(id || '');
-  const relatedArticles = getRecentArticles(3);
+  const relatedArticles = getRecentArticles(8);
 
   useEffect(() => {
     // Scroll to top when the component mounts
